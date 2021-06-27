@@ -10,7 +10,7 @@ public class Game {
                 // Вводим число с клавиатуры
                 Scanner sc = new Scanner(System.in);
 
-                System.out.print("Введите число, которое вы угадали (от 0 до 100):");
+                System.out.print("Введите число от 0 до 100");
 
                 int gessnumber = sc.nextInt();
                 // Сравниваем с правильным числом
