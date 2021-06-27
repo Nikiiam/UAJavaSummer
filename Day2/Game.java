@@ -12,13 +12,13 @@ public class Game {
 
                 System.out.print("Введите число от 0 до 100");
 
-                int gessnumber = sc.nextInt();
+                int myNumber = sc.nextInt();
                 // Сравниваем с правильным числом
-                if(gessnumber > number){
+                if(myNumber > number){
 
                     System.out.println("Cлишком большое");
 
-                }else if(gessnumber < number){
+                }else if(myNumber < number){
 
                     System.out.println("Слишком маленькое");
 
